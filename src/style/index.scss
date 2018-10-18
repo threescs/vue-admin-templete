@@ -1,0 +1,48 @@
+@font-face
+{
+    font-family: 'iconfont';
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/iconfont.woff') format('woff'), url('fonts/iconfont.ttf') format('truetype');
+}
+
+[class^='el-icon-zb-'],
+[class*=' el-icon-zb-']
+{
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'iconfont' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    display: inline-block;
+
+    vertical-align: baseline;
+    text-transform: none;
+
+    speak: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-zb-home:before { content: "\e61e"; }
+
+.el-icon-zb-empty:before { content: "\e64d"; }
+
+.el-icon-zb-finance:before { content: "\e618"; }
+
+.el-icon-zb-store:before { content: "\e635"; }
+
+.el-icon-zb-empty2:before { content: "\e61c"; }
+
+.el-icon-zb-ticket:before { content: "\e63b"; }
+
+.el-icon-zb-empty1:before { content: "\e9aa"; }
+
+.el-icon-zb-location:before { content: "\e680"; }
+
+.el-icon-zb-vip:before { content: "\e688"; }
